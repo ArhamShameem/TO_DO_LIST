@@ -24,7 +24,7 @@ const TodoInput = ({ addList }) => {
         <input
           type="text"
           placeholder="Enter task here! "
-          className="bg-gray-600 bg-opacity-50 w-[30%] h-10 rounded-3xl text-center mt-20"
+          className="bg-gray-600 bg-opacity-50 w-[80%] md:w-[30%] h-10 rounded-3xl text-center mt-20"
           value={task}
           onChange={(e) => {
             setTask(e.target.value);
